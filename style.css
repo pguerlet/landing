@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin-top: 440px;
+  padding: 0px;
+  color: #FF3632;
+  font-family: 'DM Serif Text', serif;
+    font-size: 16px;
+  background-color: white;
+}
+
+header{
+  background-image: linear-gradient(rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.6) 50%) ,url("Images/background.jpg");
+  background-size: cover;
+  width:100%;
+  height: 400px;
+  text-align: center;
+  margin-top: 0px;
+  color: #186F39;
+  font-size: 2em;
+  position:fixed;
+  top:0px; left:0px;
+}
+
+#btn_VC{
+  color: white;
+  width:auto;
+  background: #FF3632;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  padding: 15px 20px;
+  font-size: 14px;
+  box-shadow:0px 10px 10px grey;
+}
+
+#btn_VC:hover {
+  background: #186F39;
+  color: white;
+  transition: all .34s ease-out;
+  box-shadow:0px 10px 10px grey;
+}
+
+footer{
+  background-color: #d8c5b6;
+  margin:0px;
+}
+
+h1, h2, h3 {
+  font-family: 'DM Serif Text', serif;
+  font-weight: bold;
+  top:25px;
+}
+
+h1 {
+    font-size: 40px;
+  color: #186F39;
+}
+
+#title {
+  margin-top:0px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #186F39;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #186F39;
+}
+
+.boxes {
+  margin:30px 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blank{
+  height:400px;
+}
+
+.boxes img{
+  height: 170px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+  width:100%;
+  margin:0px 10px;
+}
+
+.card {
+  text-decoration-color: #FF3632;
+}
+
+.card:hover {
+    box-shadow: 0 4px 6px rgba(50,50,93,.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
